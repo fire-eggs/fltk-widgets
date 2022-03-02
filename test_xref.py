@@ -51,7 +51,7 @@ for file in cxx:
 print("|Widget|Picture|Tests|")
 print("|---|---|---|")
 for key in sorted(dict.keys()):
-  print("|{0}|![{2}](images/{2}.png)|{1}|".format(key, ",".join(dict[key]),key[:-2]))
+  print("|{0}|![{2}](images/{2}.png)|{1}|".format(key, ", ".join(sorted(dict[key])),key[:-2]))
   
 # identify missing  
 #master = glob.glob("../FL/?l_*.H")
