@@ -42,7 +42,6 @@ A visual guide to the official FLTK 1.4 widgets and location within the `test` p
 |Fl_Menu_Bar.H|![Fl_Menu_Bar](images/Fl_Menu_Bar.png)|./fltk/test/editor.cxx|
 |Fl_Menu_Button.H|![Fl_Menu_Button](images/Fl_Menu_Button.png)|./fltk/test/demo.cxx, ./fltk/test/fullscreen.cxx, ./fltk/test/inactive.h, ./fltk/test/menubar.cxx, ./fltk/test/subwindow.cxx|
 |Fl_Menu_Item.H|![Fl_Menu_Item](images/Fl_Menu_Item.png)|./fltk/test/checkers.cxx|
-|Fl_Multi_Label.H|![Fl_Multi_Label](images/Fl_Multi_Label.png)|./fltk/test/pixmap.cxx|
 |Fl_Multiline_Input.H|![Fl_Multiline_Input](images/Fl_Multiline_Input.png)|./fltk/test/input.cxx, ./fltk/test/native-filechooser.cxx|
 |Fl_Multiline_Output.H|![Fl_Multiline_Output](images/Fl_Multiline_Output.png)|./fltk/test/output.cxx|
 |Fl_Native_File_Chooser.H|![Fl_Native_File_Chooser](images/Fl_Native_File_Chooser.png)|./fltk/test/device.cxx, ./fltk/test/editor.cxx, ./fltk/test/native-filechooser.cxx, ./fltk/test/pixmap_browser.cxx|
