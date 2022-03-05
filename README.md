@@ -1,5 +1,7 @@
 # fltk-widgets
-A visual guide to the official FLTK 1.4 widgets and location within the `test` programs
+A visual guide to the official FLTK 1.4 widgets and location within the `test` programs.
+
+The images were all captured on Linux Mint with the "default" FLTK scheme. The appearance of the widgets will vary depending on the platform or the scheme used.
 
 |Widget|Picture|Tests|
 |---|---|---|
