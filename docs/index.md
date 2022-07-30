@@ -8,13 +8,14 @@ My attempt to document widgets and other resources for use with the Fast Light T
 FLTK Widgets which I've created.
 
 - Last Used / Most Recently Used menu
-- [Time Entry](#TimeEntry)
+- [Time Entry](#TimeEntry) : enter a length of time
 - KeyEdit
 - Show Dialog
 - Transparent Widgets
 
 ## FLTK Hacks
 
+- Visual guide to FLTK widgets and examples
 - Resizable Borderless Window
 - Rotated '@' Labels
 
@@ -28,16 +29,18 @@ FLTK Widgets which I've created.
 
 I've been using FLTK 1.4 releases on Linux Mint and Raspberry Pi. No testing on other platforms.
 
+## Widgets
 
 <A Name="TimeEntry"></A>
 ### TimeEntry Widget
 
-A widget for entering a length of time, in Hours:Minutes:Seconds.
+A widget for entering a length of time, in Hours:Minutes:Seconds. Allows fetching the value in seconds or separate integers.
 
-[TimeEntry Screencap](./TimeEntry.png)
+![TimeEntry Screencap](./TimeEntry.png)
 
-
-
+1. **TODO**: link to directory
+1. **TODO**: zip containing files
+1. **TODO**: areas for improvement
 
 
 You can use the [editor on GitHub](https://github.com/fire-eggs/fltk-widgets/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
