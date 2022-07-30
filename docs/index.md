@@ -8,7 +8,7 @@ My attempt to document widgets and other resources for use with the Fast Light T
 FLTK Widgets which I've created.
 
 - Last Used / Most Recently Used menu
-- Time Entry
+- [Time Entry](#TimeEntry)
 - KeyEdit
 - Show Dialog
 - Transparent Widgets
@@ -21,7 +21,7 @@ FLTK Widgets which I've created.
 ## FLTK Links
 
 - FLTK Site
-- Erco's Cheatsheet
+- [Erco's FLTK Cheat Page](https://www.seriss.com/people/erco/fltk/)
 - Visual Widget Guide
 
 ## Background
@@ -29,9 +29,23 @@ FLTK Widgets which I've created.
 I've been using FLTK 1.4 releases on Linux Mint and Raspberry Pi. No testing on other platforms.
 
 
+<A Name="TimeEntry"></A>
+### TimeEntry Widget
+
+A widget for entering a length of time, in Hours:Minutes:Seconds.
+
+[TimeEntry Screencap](./TimeEntry.png)
+
+
+
+
+
 You can use the [editor on GitHub](https://github.com/fire-eggs/fltk-widgets/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+
+
 
 ### Markdown
 
