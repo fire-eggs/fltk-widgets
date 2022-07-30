@@ -9,7 +9,7 @@ FLTK Widgets which I've created.
 
 - Last Used / Most Recently Used menu
 - [Time Entry](#TimeEntry) : enter a length of time
-- KeyEdit
+- [KeyEdit](#KeyEdit) : enter a key chord/shortcut
 - Show Dialog
 - Transparent Widgets
 
@@ -41,6 +41,20 @@ A widget for entering a length of time, in Hours:Minutes:Seconds. Allows fetchin
 1. **TODO**: link to directory
 1. **TODO**: zip containing files
 1. **TODO**: areas for improvement
+
+<A Name="KeyEdit"></A>
+### KeyEdit Widget
+
+A widget for entering keyboard chords / shortcuts. Entering keystrokes in the widget are shown as shortcut text (as might be used in a menu).
+
+A screenshot, with the widget initialized to the `CTRL+Left-Arrow chord`.
+
+![KeyEdit Screencap](./KeyEdit.png)
+
+1. **TODO**: link to directory
+1. **TODO**: zip containing files
+1. **TODO**: areas for improvement (callback, Shift ignored, ...)
+
 
 
 You can use the [editor on GitHub](https://github.com/fire-eggs/fltk-widgets/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
