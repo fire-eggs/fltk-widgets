@@ -1,5 +1,12 @@
+/* SPDX-License-Identifier: BSD-3-Clause-Clear */
+/*
+ * Copyright (C) 2022, by Kevin Routley
+ *
+ * The KeyEdit widget.
+ */
 #ifndef _KeyEdit_H_
 #define _KeyEdit_H_
+#pragma once
 
 #include <FL/Fl_Input.H>
 
@@ -10,7 +17,8 @@ public:
     
     void whereShow(Fl_Widget *w);
     
-    void set(unsigned int key);
+    void value(unsigned int key);
+    unsigned int value() { return _key; }
     
 protected:
     int handle(int event) override;
@@ -19,6 +27,7 @@ protected:
     
 private:
     Fl_Widget *showW;
+    unsigned int _key;
 };
 
 
@@ -32,9 +41,12 @@ private:
     
 public:
     KeyEdit(int x, int y, int w, int h, const char *l=0);
-    void set(unsigned int key);
+    unsigned int value() { return _current; }
+    void value(unsigned int key);
     void resize(int x, int y, int w, int h) override;
-    
+
+private:
+    static void ke_cb(Fl_Widget *, void *); // internal callback    
 };
 
 #endif // _KeyEdit_H_
