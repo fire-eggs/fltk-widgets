@@ -15,7 +15,7 @@ FLTK Widgets which I've created.
 ## FLTK Hacks
 
 - Resizable Borderless Window
-- [RotatedAtLabel](Rotated '@' Labels) : additional '@' labels provided via rotation
+- [Rotated '@' Labels](#RotateAtLabel) : additional '@' labels provided via rotation
 - Transparent Widgets
 
 ## FLTK Links
@@ -60,20 +60,18 @@ A screenshot, with the widget initialized to the `CTRL+Left-Arrow chord`.
 <A Name="RotateAtLabel"></A>
 ### Rotated '@' Labels
 
-It wasn't obvious to me from the documentation, but the built-in '@' labels may be rotated to provide more variants. You can easily
-experiment using the `symbols` test program.
+It wasn't obvious to me from the documentation, but the built-in '@' labels may be rotated to provide 
+more variants. You can easily experiment using the `symbols` test program.
 
 For example, here is a directional button matrix:
 
 ![Directional button matrix](./directional.png)
 
-And the matching '@' labels:
+And the matching '@' labels used:
 
 | --- | --- | --- |
 | @3< | @2< | @1< |
-| --- | --- | --- |
 | @<  | @1+ | @>  |
-| --- | --- | --- |
 | @3> | @2> | @1> |
 
 
