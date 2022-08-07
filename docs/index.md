@@ -14,9 +14,10 @@ FLTK Widgets which I've created.
 
 ## FLTK Hacks
 
-- Resizable Borderless Window
+- [Resizable Borderless Windows](#ResizeBorderless) : make FLTK border-less windows re-sizable on X11
 - [Rotated '@' Labels](#RotateAtLabel) : additional '@' labels provided via rotation
 - Transparent Widgets
+- Color Theming
 
 ## FLTK Links
 
@@ -73,6 +74,30 @@ And the matching '@' labels used:
 | @3< | @2< | @1< |
 | @<  | @1+ | @>  |
 | @3> | @2> | @1> |
+
+<A Name="ResizeBorderless"></A>
+### A Resizable Borderless Window
+
+Re-sizable, borderless windows are possible on an X11 windowing system, via a small tweak to the FLTK X11 driver code.
+
+In `src/Fl_x.cxx`, there is a function `Fl_X11_Driver::sendxjunk`. Near the bottom of said function, there are these lines of code:
+```
+  if (!w->border()) {
+    prop[0] |= 2; // MWM_HINTS_DECORATIONS
+    prop[2] = 0; // no decorations
+  }
+```
+By adding a single line of code, borderless windows are now re-sizable:
+```
+  if (!w->border()) {
+    prop[0] |= 2; // MWM_HINTS_DECORATIONS
+    prop[2] = 0; // no decorations
+    prop[2] = 1 << 1 ; // KBR this gives me a resizable borderless window
+  }
+```
+**NOTE**: this change makes _all_ borderless FLTK windows re-sizable. Making this a configurable option is left as an exercise for the reader.
+
+This change has been observed to _not_ produce the desired behavior on KDE Plasma.
 
 
 ### blah
