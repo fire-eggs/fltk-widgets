@@ -16,6 +16,7 @@ FLTK Widgets which I've created.
 
 - [Resizable Borderless Windows](#ResizeBorderless) : make FLTK border-less windows re-sizable on X11
 - [Rotated '@' Labels](#RotateAtLabel) : additional '@' labels provided via rotation
+- [Large button FLUID](#LargeFLUID) : larger buttons in the widget panel
 - Transparent Widgets
 - Color Theming
 
@@ -99,6 +100,23 @@ By adding a single line of code, borderless windows are now re-sizable:
 
 This change has been observed to _not_ produce the desired behavior on KDE Plasma.
 
+<A Name="LargeFLUID"></A>
+### Large Button FLUID
+
+I find the default size of the widget bin buttons in FLUID to be too small. Especially on newer, larger resolution monitors.
+
+After reworking the panel creation code, the size of the buttons may now be modified by changing a single constant.
+
+Here is a screen shot comparing the original versus modified:
+
+![FLUID](./fluid_large_buttons.png)
+
+The original, on top, has 24x24 buttons. The modified, below, has 36x36 buttons.
+
+Missing: the text above the groups. The changed code needs some cleanup and comments.
+
+1. **TODO**: link to directory
+1. **TODO**: update to latest FLTK 1.4
 
 ### blah
 
