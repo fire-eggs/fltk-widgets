@@ -39,9 +39,11 @@ A widget for entering a length of time, in Hours:Minutes:Seconds. Allows fetchin
 
 ![TimeEntry Screencap](./TimeEntry.png)
 
-1. **TODO**: link to directory
+For the sample and the code see [TimeEntry](https://github.com/fire-eggs/fltk-widgets/tree/main/TimeEntry).
+
+Also please see [TimeEntry: Limitations](https://github.com/fire-eggs/fltk-widgets/discussions/1).
+
 1. **TODO**: zip containing files
-1. **TODO**: areas for improvement
 
 <A Name="KeyEdit"></A>
 ### KeyEdit Widget
@@ -52,9 +54,11 @@ A screenshot, with the widget initialized to the `CTRL+Left-Arrow chord`.
 
 ![KeyEdit Screencap](./KeyEdit.png)
 
-1. **TODO**: link to directory
+For the sample and the code see [KeyEdit](https://github.com/fire-eggs/fltk-widgets/tree/main/KeyEdit).
+
+Also please see [KeyEdit: Limitations](https://github.com/fire-eggs/fltk-widgets/discussions/2).
+
 1. **TODO**: zip containing files
-1. **TODO**: areas for improvement (Shift ignored, ...)
 
 
 ## Hacks
@@ -113,48 +117,7 @@ Here is a screen shot comparing the original versus modified:
 
 The original, on top, has 24x24 buttons. The modified, below, has 36x36 buttons.
 
-Missing: the text above the groups. The changed code needs some cleanup and comments.
+Missing: the text above the groups.
 
-1. **TODO**: link to directory
-1. **TODO**: update to latest FLTK 1.4
+The modification is implemented in a single file from the FLUID source code, which can be found [here](https://github.com/fire-eggs/fltk-widgets/tree/main/FluidLargeButtons). The changed code could use some cleanup and comments. It may also be a little out-of-sync from the latest FLTK 1.4 code base.
 
-### blah
-
-You can use the [editor on GitHub](https://github.com/fire-eggs/fltk-widgets/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fire-eggs/fltk-widgets/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
